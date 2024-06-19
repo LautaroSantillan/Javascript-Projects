@@ -11,7 +11,7 @@ body {
 
 .container {
   height: 100vh;
-  width: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,20 +88,21 @@ body {
 }
 .theme-toggler::before {
   content: "";
+  position: absolute;
   height: 30px;
   width: 30px;
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  background-color: #333;
+  background-color: #fff;
   z-index: -1;
 }
 
-.theme-toggler .active {
+.theme-toggler.active {
   color: #333;
 }
-.theme-toggler .active::before {
-  background-color: #fff;
+.theme-toggler.active::before {
+  background-color: #4c35aa;
 }
 
 button {
