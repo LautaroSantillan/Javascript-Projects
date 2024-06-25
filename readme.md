@@ -19,8 +19,8 @@ This repository will serve to save all of my projects, training and examples on 
 <p>Preview of Elegant Menu</p>
 <br>
 <p float="left">
-  <img src="./assetsPreview/menuOpen.jpg" height="350"/>
-  <img src="./assetsPreview/menuClose.jpg" height="350"/> 
+  <img src="./assetsPreview/menuOpen.jpg" height="350" width="450"/>
+  <img src="./assetsPreview/menuClose.jpg" height="350" width="450"/> 
 </p>
 
 <p>Preview of Theme Dark/Light</p>
